@@ -1,6 +1,6 @@
-# DevCamper_API
+# SkillBridge API: Comprehensive Bootcamp and User Review System
 
-The DevCamper API is a comprehensive backend system that stimulates the management of bootcamps, courses, user reviews, and authentication. Designed for learning purposes, this project provides a platform where bootcamps offering professional training can register, manage their offerings, and interact with users. Users can explore bootcamps, enroll in courses, and leave reviews to share their experiences.
+The SkillBridge API system is a comprehensive backend system that stimulates the management of bootcamps, courses, user reviews, and authentication. Designed for learning purposes, this project provides a platform where bootcamps offering professional training can register, manage their offerings, and interact with users. Users can explore bootcamps, enroll in courses, and leave reviews to share their experiences.
 
 Build using JS and its frameworks including Node.js and Express.js alongside MongoDB, this project showcases essential backend development skills and concepts, such as advanced filtering, pagination, and role-based access control (RBAC).
 <br>
