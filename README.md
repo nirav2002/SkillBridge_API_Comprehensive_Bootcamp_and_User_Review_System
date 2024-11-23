@@ -3,11 +3,10 @@
 The SkillBridge API system is a comprehensive backend system that stimulates the management of bootcamps, courses, user reviews, and authentication. Designed for learning purposes, this project provides a platform where bootcamps offering professional training can register, manage their offerings, and interact with users. Users can explore bootcamps, enroll in courses, and leave reviews to share their experiences.
 
 Build using JS and its frameworks including Node.js and Express.js alongside MongoDB, this project showcases essential backend development skills and concepts, such as advanced filtering, pagination, and role-based access control (RBAC).
+
 <br>
 
 ## Key functionality:
-
-<br>
 
 - Bootcamps and Courses: Publishers (authorized personnel) can register bootcamps and add detailed course information for prospective students.
 
@@ -86,4 +85,14 @@ Build using JS and its frameworks including Node.js and Express.js alongside Mon
   - Comprehensive integration testing ensures the API functions as expected.
   - Automated tests for endpoints like Bootcamp creation and user authentication.
 
+<br>
+
 ---
+
+<br>
+
+## API Documentation
+
+The complete **API documentation** for the SkillBridge API is hosted on Postman. It includes detailed information about all endpoints, request/response structures, and error messages.
+
+[➡️ SkillBridge API Documentation](https://documenter.getpostman.com/view/38855406/2sAYBUCsFT)
