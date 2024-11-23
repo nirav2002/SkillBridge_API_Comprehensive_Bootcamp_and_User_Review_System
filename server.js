@@ -65,8 +65,16 @@ app.use(xss());
 
 //Rate limiting
 const limiter = rateLimit({
-  windowMs: 10 * 60 * 1000, //10 minutes
-  max: 100,
+  windowMs: 1 * 60 * 1000, //1 minute
+  max: 10, //Limit each IP to 10 requests per WindowMs
+  //In order to tell the user how much time is left until they can send another request
+
+  message: (_, res) => {
+    const retryAfter = res.getHeaders()["retry-after"]; //Retrieve the Retry-After header
+    return `Too many requests, please try again after ${retryAfter} seconds.`;
+  },
+  standardHeaders: true, //Send rate Limit info in the `RateLimit-*` headers
+  legacyHeaders: false, //Disable the `X-RateLimit-*` headers
 });
 
 app.use(limiter);
