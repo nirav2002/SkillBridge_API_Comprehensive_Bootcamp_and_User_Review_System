@@ -6,7 +6,7 @@ Build using JS and its frameworks including Node.js and Express.js alongside Mon
 
 <br>
 
-## Key functionality:
+## Key functionality
 
 - Bootcamps and Courses: Publishers (authorized personnel) can register bootcamps and add detailed course information for prospective students.
 
@@ -18,7 +18,7 @@ Build using JS and its frameworks including Node.js and Express.js alongside Mon
 
 <br>
 
-## Project Workflow:
+## Project Workflow
 
 1. **Database Design and Setup**:
 
@@ -47,47 +47,37 @@ Build using JS and its frameworks including Node.js and Express.js alongside Mon
 
 <br>
 
----
-
-### Features:
-
-```markdown
 ## Features
-```
 
-- **CRUD Operations**:
-  Perform Create, Read, Update, and Delete operations for Bootcamps, Courses, Reviews, and Users.
+1. **CRUD Operations**:
+   Perform Create, Read, Update, and Delete operations for Bootcamps, Courses, Reviews, and Users.
 
-- **Authentication and Authorization**:
+2. **Authentication and Authorization**:
 
-  - User registration and login with JWT-based authentication.
-  - Role-based access control for secure access to resources.
+   - User registration and login with JWT-based authentication.
+   - Role-based access control for secure access to resources.
 
-- **Advanced Filtering and Pagination**:
+3. **Advanced Filtering and Pagination**:
 
-  - Query results can be filtered, sorted, and paginated based on URL parameters.
+   - Query results can be filtered, sorted, and paginated based on URL parameters.
 
-- **Rate Limiting**:
+4. **Rate Limiting**:
 
-  - Protect the API from abuse by limiting the number of requests a user can make in a specific time frame.
+   - Protect the API from abuse by limiting the number of requests a user can make in a specific time frame.
 
-- **Data Validation and Error Handling**:
+5. **Data Validation and Error Handling**:
 
-  - Validate user inputs with robust schema definitions.
-  - Provide meaningful error messages for incorrect requests.
+   - Validate user inputs with robust schema definitions.
+   - Provide meaningful error messages for incorrect requests.
 
-- **Database Relationships**:
+6. **Database Relationships**:
 
-  - Establish references between schemas for Bootcamp, Course, Review, and User.
-  - Populate related data in API responses using Mongoose.
+   - Establish references between schemas for Bootcamp, Course, Review, and User.
+   - Populate related data in API responses using Mongoose.
 
-- **Testing Suite**:
-  - Comprehensive integration testing ensures the API functions as expected.
-  - Automated tests for endpoints like Bootcamp creation and user authentication.
-
-<br>
-
----
+7. **Testing Suite**:
+   - Comprehensive integration testing ensures the API functions as expected.
+   - Automated tests for endpoints like Bootcamp creation and user authentication.
 
 <br>
 
